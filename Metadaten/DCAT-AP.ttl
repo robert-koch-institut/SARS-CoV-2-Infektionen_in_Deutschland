@@ -1,0 +1,79 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix time: <http://www.w3.org/2006/time> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ckan.govdata.de/dataset/8c0561f3-8378-44ca-8061-99d04c6452e6> a dcat:Dataset ;
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+    dcatde:maintainer [ a foaf:Organization ;
+            foaf:mbox "info@rki.de" ;
+            foaf:name "Fachgebiet 32 | Surveillance" ] ;
+    dcatde:politicalGeocodingLevelURI <http://dcat-ap.de/def/politicalGeocoding/Level/administrativeDistrict> ;
+    dct:creator [ a foaf:Organization ;
+            foaf:homepage <https://www.rki.de> ;
+            foaf:mbox "mf4@rki.de" ;
+            foaf:name "Robert Koch-Institut" ] ;
+    dct:description """Im Datensatz 'SARS-CoV-2 Infektionen in Deutschland' werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des Infektionsschutzgesetzes - IfSG - von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.\r
+<p> Der Datensatz ist wissenschaftlich zitierbar im europäischen Forschungsdatenrepositorium <a href='https://zenodo.org/communities/robertkochinstitut/?page=1&size=50'>Zenodo.org</a> und auf <a href='https://github.com/robert-koch-institut'>GitHub.com</a>  bereitgestellt:</p><ul><li><a href='https://doi.org/10.5281/zenodo.5989727'>https://doi.org/10.5281/zenodo.5989727</a></li><li><a href='https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland'>https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland</a></li></ul>""" ;
+    dct:identifier "8c0561f3-8378-44ca-8061-99d04c6452e6" ;
+    dct:issued "2021-04-12T00:00:00"^^xsd:dateTime ;
+    dct:modified "2021-08-17T06:26:42.998133"^^xsd:dateTime ;
+    dct:publisher [ a foaf:Organization ;
+            foaf:mbox "opendata@rki.de" ;
+            foaf:name "Robert Koch-Institut | MF 4 - Forschungsdatenmanagement" ] ;
+    dct:spatial [ a dct:Location ] ;
+    dct:temporal [ a dct:PeriodOfTime ;
+            schema:startDate "2020-01-07T00:00:00"^^xsd:dateTime ] ;
+    dct:title "SARS-CoV-2 Infektionen in Deutschland" ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "Fachgebiet 32 | Surveillance" ;
+            vcard:hasCountryName "Deutschland" ;
+            vcard:hasEmail <mailto:info@rki.de> ;
+            vcard:hasLocality "Berlin" ;
+            vcard:hasPostalCode "13353" ;
+            vcard:hasStreetAddress "Nordufer 20" ] ;
+    dcat:distribution <https://ckan.govdata.de/dataset/8c0561f3-8378-44ca-8061-99d04c6452e6/resource/34d76db5-1a12-4656-ab13-0f83e6d2a06c>,
+        <https://ckan.govdata.de/dataset/8c0561f3-8378-44ca-8061-99d04c6452e6/resource/d4262cc2-4187-4026-a0a3-a2e42891fc2b> ;
+    dcat:keyword "COVID-19",
+        "Coronavirus",
+        "Deutschland",
+        "Infektion",
+        "RKI",
+        "SARS-CoV-2" ;
+    dcat:landingPage <https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland#readme> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> .
+
+<https://ckan.govdata.de/dataset/8c0561f3-8378-44ca-8061-99d04c6452e6/resource/34d76db5-1a12-4656-ab13-0f83e6d2a06c> a dcat:Distribution ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.5989727." ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz  'SARS-CoV-2 Infektionen in Deutschland' bereitgestellten Daten." ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+    dct:language <https://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:title "[Dokumentation] SARS-CoV-2 Infektionen in Deutschland.pdf" ;
+    dcat:accessURL <https://raw.githubusercontent.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/master/%5BDokumentation%5D%20SARS-CoV-2%20Infektionen%20in%20Deutschland.pdf> .
+
+<https://ckan.govdata.de/dataset/8c0561f3-8378-44ca-8061-99d04c6452e6/resource/d4262cc2-4187-4026-a0a3-a2e42891fc2b> a dcat:Distribution ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.5989727." ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:description "Die Daten stellen die tagesaktuellen, epidemiologischen Informationen über den Verlauf der SARS-CoV-2 Infektionen in Deutschland bereit. In den Fallzahlen sind alle, von den Gesundheitsämtern, über die zuständigen Landesbehörden, an das Meldesystem des RKIs übermittelten SARS-CoV-2 Infektionen enthalten. Die Daten werden täglich vollständig neu erzeugt und ersetzen den Datenstand des Vortages. Weitere Informationen, insbesondere zu den enthaltenen Variablen, lassen sich der Datensatzdokumentation entnehmen." ;
+    dct:format <https://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dct:language <https://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:title "Aktuell_Deutschland_SarsCov2_Infektionen.csv" ;
+    dcat:accessURL <https://media.githubusercontent.com/media/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/master/Aktuell_Deutschland_SarsCov2_Infektionen.csv> .
+
