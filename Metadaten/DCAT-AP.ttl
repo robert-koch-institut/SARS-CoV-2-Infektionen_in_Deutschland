@@ -27,7 +27,7 @@
             foaf:mbox "mf4@rki.de" ;
             foaf:name "Robert Koch-Institut" ] ;
     dct:description """Im Datensatz 'SARS-CoV-2 Infektionen in Deutschland' werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des Infektionsschutzgesetzes - IfSG - von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.\r
-<p> Der Datensatz ist wissenschaftlich zitierbar im europäischen Forschungsdatenrepositorium <a href='https://zenodo.org/communities/robertkochinstitut/?page=1&size=50'>Zenodo.org</a> und auf <a href='https://github.com/robert-koch-institut'>GitHub.com</a>  bereitgestellt:</p><ul><li><a href='https://doi.org/10.5281/zenodo.6633820'>https://doi.org/10.5281/zenodo.6633820</a></li><li><a href='https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland'>https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland</a></li></ul>""" ;
+<p> Der Datensatz ist wissenschaftlich zitierbar im europäischen Forschungsdatenrepositorium <a href='https://zenodo.org/communities/robertkochinstitut/?page=1&size=50'>Zenodo.org</a> und auf <a href='https://github.com/robert-koch-institut'>GitHub.com</a>  bereitgestellt:</p><ul><li><a href='https://doi.org/10.5281/zenodo.6635247'>https://doi.org/10.5281/zenodo.6635247</a></li><li><a href='https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland'>https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland</a></li></ul>""" ;
     dct:identifier "8c0561f3-8378-44ca-8061-99d04c6452e6" ;
     dct:issued "2021-04-12T00:00:00"^^xsd:dateTime ;
     dct:modified "2021-08-17T06:26:42.998133"^^xsd:dateTime ;
@@ -58,7 +58,7 @@
         <http://publications.europa.eu/resource/authority/data-theme/SOCI> .
 
 <https://ckan.govdata.de/dataset/8c0561f3-8378-44ca-8061-99d04c6452e6/resource/34d76db5-1a12-4656-ab13-0f83e6d2a06c> a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.6633820." ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.6635247." ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz  'SARS-CoV-2 Infektionen in Deutschland' bereitgestellten Daten." ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
@@ -68,7 +68,7 @@
     dcat:accessURL <https://raw.githubusercontent.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/master/%5BDokumentation%5D%20SARS-CoV-2%20Infektionen%20in%20Deutschland.pdf> .
 
 <https://ckan.govdata.de/dataset/8c0561f3-8378-44ca-8061-99d04c6452e6/resource/d4262cc2-4187-4026-a0a3-a2e42891fc2b> a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.6633820." ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.6635247." ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Daten stellen die tagesaktuellen, epidemiologischen Informationen über den Verlauf der SARS-CoV-2 Infektionen in Deutschland bereit. In den Fallzahlen sind alle, von den Gesundheitsämtern, über die zuständigen Landesbehörden, an das Meldesystem des RKIs übermittelten SARS-CoV-2 Infektionen enthalten. Die Daten werden täglich vollständig neu erzeugt und ersetzen den Datenstand des Vortages. Weitere Informationen, insbesondere zu den enthaltenen Variablen, lassen sich der Datensatzdokumentation entnehmen." ;
     dct:format <https://publications.europa.eu/resource/authority/file-type/CSV> ;
