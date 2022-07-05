@@ -9,17 +9,17 @@ Nordufer 20
 FG 32 | Surveillance  
 [Michaela Diercke](https://orcid.org/0000-0002-4678-1813) (Leitung)  
 
-FG 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung  
+IT 4 | Developement  
 [Herrmann Claus](https://orcid.org/0000-0002-0120-1846) (Leitung)  
 
-MF 4 | Forschungsdatenmanagement  
+MF 4 | Informations- und Forschungsdatenmanagement  
 [Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625) (Leitung)  
 [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
  
 
 ---
   
-Robert Koch-Institut (2022): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.6784265](https://doi.org/10.5281/zenodo.6784265).  
+Robert Koch-Institut (2022): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.6792883](https://doi.org/10.5281/zenodo.6792883).  
 
 Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
 
@@ -200,7 +200,7 @@ Offene Forschungsdaten des RKI werden auf Edoc, GitHub.com sowie Zenodo.org bere
 
 Die bereitgestellten Daten sind mit Metadaten beschreiben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
 
-> [.zenodo.json](/.zenodo.json)  
+> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
 
 Die Dokumentation der einzelen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
 
@@ -212,4 +212,4 @@ Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung 
 
 Die empfohlene Zitierweise ist:  
 
-Robert Koch-Institut (2022): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.6784265](https://doi.org/10.5281/zenodo.6784265).
+Robert Koch-Institut (2022): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.6792883](https://doi.org/10.5281/zenodo.6792883).
