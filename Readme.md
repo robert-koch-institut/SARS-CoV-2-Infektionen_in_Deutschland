@@ -202,7 +202,7 @@ Die bereitgestellten Daten sind mit Metadaten beschreiben und wissenschaftlich z
 
 > [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
 
-Die Dokumentation der einzelen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
 
 #### Lizenz
 
