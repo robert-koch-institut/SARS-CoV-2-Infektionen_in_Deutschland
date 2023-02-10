@@ -18,10 +18,9 @@ MF 4 | Informations- und Forschungsdatenmanagement
  
 
 ---
-  
-Robert Koch-Institut (2023): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.7542611](https://doi.org/10.5281/zenodo.7542611).  
 
-Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
+**Zitieren**  
+Robert Koch-Institut (2023): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.7627298](https://doi.org/10.5281/zenodo.7627298).  
 
 ## Informationen zum Datensatz und Entstehungskontext
 ### Administrative und organisatorische Angaben
