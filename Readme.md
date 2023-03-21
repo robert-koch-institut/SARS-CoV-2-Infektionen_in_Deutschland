@@ -1,35 +1,38 @@
 Datensatzdokumentation  
-# SARS-CoV-2 Infektionen in Deutschland 
+# SARS-CoV-2 Infektionen in Deutschland
 
-
-[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
+[Robert Koch-Institut | RKI](http://www.rki.de)  
 Nordufer 20  
 13353 Berlin  
 
-FG 32 | Surveillance  
-[Michaela Diercke](https://orcid.org/0000-0002-4678-1813) (Leitung)  
+FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle   
+[Michaela Diercke](https://orcid.org/0000-0002-4678-1813) (Leitung) 
 
-IT 4 | Developement  
+MFI | Methodenentwicklung, Forschungsinfrastruktur und Informationstechnologie   
+[Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625) (Leitung)
+
+IT 4 | Softwarearchitektur und -entwicklung   
 [Herrmann Claus](https://orcid.org/0000-0002-0120-1846) (Leitung)  
 
-MF 4 | Informations- und Forschungsdatenmanagement  
-[Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625) (Leitung)  
+MF 4 | Informations- und Forschungsdatenmanagement    
 [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
- 
-
+  
 ---
 
 **Zitieren**  
 Robert Koch-Institut (2023): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.7754490](https://doi.org/10.5281/zenodo.7754490).  
 
-## Informationen zum Datensatz und Entstehungskontext
+## Informationen zum Datensatz und Entstehungskontext  
+
+Das vorliegende Datansatz enthält umfassende Informationen zu SARS-CoV-2-Infektionen in Deutschland, die gemäß dem Infektionsschutzgesetze (IfSG) von den Gesundheitsämtern an das Robert Koch-Institut (RKI) gemeldet wurden. Die Daten umfassen Informationen zur Anzahl der bestätigten Fälle, Todesfälle und Genesungen, aus denen sich weitere Kennzahlen im Zusammenhang mit der COVID-19-Pandemie ableiten lassen. Der Datensatz wird täglich aktualisiert und enthält detaillierte Informationen auf Landkreisebene, die nach verschiedenen Altersgruppen aufgeschlüsselt sind. Die Bereitstellung des Datensatzes soll dazu beitragen, das Verständnis der COVID-19-Pandemie in Deutschland zu verbessern und die Berichterstattung, Forschung und Analyse in diesem Bereich zu unterstützen.
+
 ### Administrative und organisatorische Angaben
 
 Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.  
  
-Die zugrundeliegenden Daten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) des RKI.  
-Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [Fachgebiet 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG31/FG31_node.html) des RKI.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
+Die zugrundeliegenden Daten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) des RKI.  
+Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [IT 4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html) des RKI.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
 
 
 ### Inhalt und Aufbau des Datensatzes
@@ -42,8 +45,7 @@ Der Datensatz enthält epidemiologische Daten über den Verlauf der SARS-CoV-2 I
 - Datensatzdokumentation in deutscher Sprache  
 - Metadaten Datei zum Import in Zenodo  
 
-## Aufbereitung der Daten  
-### Daten und Datenaufbereitung  
+## Daten und Datenaufbereitung  
 
 Die Fallzahlendaten bilden einen tagesaktuellen Stand (00:00 Uhr) aller bisherig gemeldeten Infektionsfälle in Deutschland ab. Das bedeutet, dass alle, bis 00:00 Uhr des Tages JJJJ-MM-TT, von den Gesundheitsämtern, über die zuständigen Landesbehörden, an das Meldesystem des RKIs übermittelten SARS-CoV-2 Infektionen im Datenstand enthalten sind. Die Daten werden täglich vollständig neu erzeugt und dieser Datenstand ersetzt den Datenstand des Vortages.  
   
@@ -59,19 +61,12 @@ Für eine genauere Darstellung Berlins, werden die 12 Stadtbezirke als eigene "L
 |11005 | Berlin Spandau | 11011 | Berlin Lichtenberg |  
 |11006 | Berlin Steglitz-Zehlendorf | 11012 | Berlin Reinickendorf|  
 
-#### **Fallzahlendaten**
+### Fallzahlendaten
 
 > Aktuell_Deutschland_SARSCoV2_Infektionen.csv  
 
 Zentrales Datum des Datensatzes sind die aktuellen Fallzahlendaten. Diese sind im Hauptverzeichnis unter "Aktuell_Deutschland_SARSCoV2_Infektionen.csv" abrufbar und werden täglich überschrieben. 
 
-#### Formatierung der Fallzahlen Daten 
-
-Die Fallzahlen Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO8601 Standard formatiert.
-
-* Zeichensatz: UTF-8  
-* Datumsformat: ISO8601  
-* .csv Trennzeichen: Komma ","  
 
 #### Merkmale der Fallzahlen Daten
 
@@ -184,27 +179,38 @@ Tag TT+4
 >NeuerFall [0], NeuerTodesfall [-9], NeuGenesen [1]  
 
 ----
-Hinweis zu Genesenen
+##### Hinweis zu Genesenen
 
 Anhand der dem RKI von den Gesundheitsämtern übermittelten Detailinformationen zu einem Erkrankungsfall wird für jeden Fall eine Dauer der Erkrankung geschätzt. Für Fälle, bei denen nur Symptome angegeben sind, die auf einen leichten Erkrankungsverlauf schließen lassen, wird eine Dauer der Erkrankung von 14 Tagen angenommen. Bei hospitalisierten Fällen oder Fällen mit Symptomen, die auf einen schweren Verlauf hindeuten (z. B. Pneumonie) wird eine Dauer der Erkrankung von 28 Tagen angenommen. Ausgehend vom Beginn der Erkrankung, bzw. wenn dieser nicht bekannt ist, vom Meldedatum ergibt sich ein geschätztes Datum der Genesung für jeden Fall. Da im Einzelfall auch deutlich längere Erkrankungsverläufe möglich sind, bzw. die hier genutzten Informationen nicht bei allen Fällen dem RKI übermittelt werden, sind die so berechneten Daten nur grobe Schätzungen für die Anzahl der Genesenen und sollten daher auch nur unter Berücksichtigung dieser Limitationen verwendet werden. 
 
-### Hinweise zur Nachnutzung der Daten
+#### Formatierung der Fallzahlen Daten 
 
-Offene Forschungsdaten des RKI werden auf Edoc, GitHub.com sowie Zenodo.org bereitgestellt: 
-* https://github.com/robert-koch-institut
-* https://zenodo.org/communities/robertkochinstitut  
-* https://edoc.rki.de
+Die Fallzahlen Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO8601 Standard formatiert.
 
-#### Metadaten
+* Zeichensatz: UTF-8  
+* Datumsformat: ISO8601  
+* .csv Trennzeichen: Komma "," 
 
-Die bereitgestellten Daten sind mit Metadaten beschreiben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
+### Metadaten  
 
-> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:
 
-Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+> [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/tree/main/Metadaten)  
 
-#### Lizenz
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
 
-Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>.  
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede:r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](/LICENSE) bzw. [LIZENZ](/LIZENZ) Datei des Datensatzes.  
+## Hinweise zur Nachnutzung der Daten  
+
+Offene Forschungsdaten des RKI werden auf [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:
+
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://edoc.rki.de](https://edoc.rki.de/)  
+
+### Lizenz  
+
+Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung der Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](/LICENSE) bzw. [LIZENZ](/LIZENZ) Datei des Datensatzes.  
