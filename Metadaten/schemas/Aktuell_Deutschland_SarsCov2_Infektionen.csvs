@@ -1,0 +1,14 @@
+﻿version 1.1
+@totalColumns 12
+IdLandkreis: regex("^(1[0-6]{1}|[0-9]{1})[0-9]{3}$")
+Altersgruppe: any("A00-A04", "A05-A14", "A15-A34", "A35-A59", "A60-A79", "A80+", "unbekannt")
+Geschlecht: any("M", "W", "unbekannt")
+Meldedatum: xDate
+Refdatum: xDate
+IstErkrankungsbeginn: any("0","1")
+NeuerFall: any("-1","0","1")
+NeuerTodesfall: any("-9","-1","0","1")
+NeuGenesen: any("-9","-1","0","1")
+AnzahlFall: positiveInteger or is("-1")
+AnzahlTodesfall: positiveInteger or is("-1")
+AnzahlGenesen: positiveInteger or is("-1")
