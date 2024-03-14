@@ -13,7 +13,7 @@ abstract: >-
   Datensatzes soll dazu beitragen, das Verständnis der COVID-19-Pandemie in
   Deutschland zu verbessern und die Berichterstattung, Forschung und Analyse in
   diesem Bereich zu unterstützen.
-date-released: '2024-03-13'
+date-released: '2024-03-14'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -29,7 +29,7 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland
 license: CC-BY-4.0
-doi: 10.5281/zenodo.10811647
-version: '2024-03-13T07:00:26+01:00'
+doi: 10.5281/zenodo.10816185
+version: '2024-03-14T07:00:12+01:00'
 authors:
   - name: Robert Koch-Institut
