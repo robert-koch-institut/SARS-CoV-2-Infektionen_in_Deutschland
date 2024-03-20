@@ -10,7 +10,7 @@ jobs:
     uses: robert-koch-institut/OpenData-Workflows/.github/workflows/OpenData_Workflows.yml@main
     with:
       # Push to OpenCoDE
-      OPENCODE_ACTIVE: true
+      OPENCODE_ACTIVE: false
       OPENCODE_GROUPID: 2781
       OPENCODE_ACCESS_USER: RKIOpenData
       OPENCODE_ZENODOJSON_PATH: Metadaten/zenodo.json
