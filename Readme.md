@@ -20,7 +20,7 @@ MF 4 | Informations- und Forschungsdatenmanagement
 ---
 
 **Zitieren**  
-Robert Koch-Institut (2024): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.11399347](https://doi.org/10.5281/zenodo.11399347).  
+Robert Koch-Institut (2024): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.11407362](https://doi.org/10.5281/zenodo.11407362).  
 
 ## Informationen zum Datensatz und Entstehungskontext  
 
