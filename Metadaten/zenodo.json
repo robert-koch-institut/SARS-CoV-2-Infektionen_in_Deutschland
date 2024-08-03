@@ -39,11 +39,14 @@
     "Infektion",
     "Deutschland",
     "Infections",
+    "Open Data",
+    "Offene Daten",
+    "SurvNet",
     "Germany",
     "RKI"
   ],
-  "publication_date": "2024-08-02",
-  "version": "2024-08-02",
+  "publication_date": "2024-08-03",
+  "version": "2024-08-03",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -73,8 +76,8 @@
   ],
   "dates": [
     {
-      "start": "2024-08-02T07:01:34+02:00",
-      "end": "2024-08-02T07:01:34+02:00",
+      "start": "2024-08-03T07:01:36+02:00",
+      "end": "2024-08-03T07:01:36+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
