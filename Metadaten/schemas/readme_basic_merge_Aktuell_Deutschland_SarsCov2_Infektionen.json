@@ -1,0 +1,64 @@
+{
+  "fields": [
+    {
+      "name": "IdLandkreis",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "Altersgruppe",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "Geschlecht",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "Meldedatum",
+      "type": "date",
+      "constraints": {}
+    },
+    {
+      "name": "Refdatum",
+      "type": "date",
+      "constraints": {}
+    },
+    {
+      "name": "IstErkrankungsbeginn",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "NeuerFall",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "NeuerTodesfall",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "NeuGenesen",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "AnzahlFall",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "AnzahlTodesfall",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "AnzahlGenesen",
+      "type": "integer",
+      "constraints": {}
+    }
+  ]
+}
