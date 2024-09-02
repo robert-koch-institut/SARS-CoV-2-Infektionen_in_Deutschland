@@ -36,12 +36,14 @@
     {
       "name": "Meldedatum",
       "type": "date",
-      "description": "Datum, wann der Fall dem Gesundheitsamt bekannt geworden ist. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag."
+      "description": "Datum, wann der Fall dem Gesundheitsamt bekannt geworden ist. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag.",
+      "format": "%Y-%m-%d"
     },
     {
       "name": "Refdatum",
       "type": "date",
-      "description": "Datum des Erkrankungsbeginns. Wenn das nicht bekannt ist, das Meldedatum."
+      "description": "Datum des Erkrankungsbeginns. Wenn das nicht bekannt ist, das Meldedatum.",
+      "format": "%Y-%m-%d"
     },
     {
       "name": "IstErkrankungsbeginn",
