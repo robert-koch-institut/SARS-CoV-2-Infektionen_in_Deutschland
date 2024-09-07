@@ -19,7 +19,7 @@ Nordufer 20
 
 **Zitieren**  
 
-Robert Koch-Institut (**2024**): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.13706314](https://doi.org/10.5281/zenodo.13706314).  
+Robert Koch-Institut (**2024**): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.13725551](https://doi.org/10.5281/zenodo.13725551).  
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
