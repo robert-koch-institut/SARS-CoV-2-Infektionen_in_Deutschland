@@ -104,9 +104,6 @@ Die Ausprägungen des Meldestatus spalten Fallgruppen temporär auf. Die Aufspal
 
 #### Merkmalsausprägungen
 
-Die Fallzahlendaten enthalten die in der folgenden Tabelle abgebildeten Merkmale und deren Ausprägungen:
-
-
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_SarsCov2_Infektionen", "lang": "de"} -->
 
 Die Datei [Aktuell_Deutschland_SarsCov2_Infektionen.csv](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Aktuell_Deutschland_SarsCov2_Infektionen.json](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_Aktuell_Deutschland_SarsCov2_Infektionen.json) hinterlegt:
@@ -131,11 +128,6 @@ Die Datei [Aktuell_Deutschland_SarsCov2_Infektionen.csv](https://github.com/robe
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
-
-
-
 
 
 Die temporäre Aufspaltung der Fallgruppen durch die Merkmale des Meldestatus wird im folgenden Beispiel verdeutlicht. Temporäre Gruppen sind durch ein ' gekennzeichnet. Neumeldungen wird bei Betrachtung der Ausprägungen der Merkmale deutlich:
