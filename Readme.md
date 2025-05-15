@@ -19,7 +19,7 @@ Nordufer 20
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15400793](https://doi.org/10.5281/zenodo.15400793)
+Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15421195](https://doi.org/10.5281/zenodo.15421195)
 <!-- CITATION_END -->
 
 

@@ -20,7 +20,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.15400793",
+        "identifier": "10.5281/zenodo.15421195",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -96,14 +96,20 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2025-05-14"
+      "version": "2025-05-15"
     },
     "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland",
     "contributors": [
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -122,7 +128,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -141,7 +153,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -160,7 +178,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -179,7 +203,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Organisational",
