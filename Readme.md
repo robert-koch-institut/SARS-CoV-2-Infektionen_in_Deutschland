@@ -1,26 +1,48 @@
-Datensatzdokumentation  
+<!-- HEADER_START: {"lang": "de"} -->
+
+
+Dokumentation  
 # SARS-CoV-2 Infektionen in Deutschland
 
-[Robert Koch-Institut | RKI](http://www.rki.de)  
-Nordufer 20  
-13353 Berlin  
+<br> 
+<br> 
+<br> 
+
+[**Robert Koch-Institut**](https://www.rki.de/)
+
+<br> 
+
+**Beitragende**   
+[Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1;, [Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625)&sup2;, [Hermann Claus](https://orcid.org/0000-0002-0120-1846)&sup1;, & [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326)&sup3;
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 32](https://www.rki.de/fg32)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de/) | [Abteilung MFI](https://www.rki.de/mfi)  
+&emsp;&emsp;&sup3; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet MF 4](https://www.rki.de/mf4)
+
+<br> 
+
+**Zitieren**  
+Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15220694](https://doi.org/10.5281/zenodo.15220694)
 
 <br>
 
-**Beitragende**  
 
-[Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1; (Leitung), [Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625)&sup2; (Leitung), [Herrmann Claus](https://orcid.org/0000-0002-0120-1846)&sup1; (Leitung) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326)&sup3; (Datenkuration) 
+**Zusammenfassung**    
+Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" des Robert Koch-Instituts werden die Daten basierend auf Meldungen zu SARS-CoV-2 Infektionen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Darin enthalten sind Informationen auf Landkreisebene zu bestätigten Infektionen, Todesfällen und Genesungen, differenziert nach Altersgruppen und Geschlecht. Diese Daten dienen als Grundlage für epidemiologische Bewertungen und gesundheitspolitische Maßnahmen.
 
-&emsp;&sup1; Robert Koch-Institut | [Fachgebiet 32](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)  
-&emsp;&sup2; Robert Koch-Institut | [Abteilung MFI](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/mfi-methodenentwicklung-forschungsinfrastruktur-und-informationstechnologie-node.html)  
-&emsp;&sup3; Robert Koch-Institut | [Fachgebiet MF 4](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html)   
+<br>
 
----
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
+  - [Daten und Datenaufbereitung](#daten-und-datenaufbereitung)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
 
-**Zitieren**  
-<!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15220694](https://doi.org/10.5281/zenodo.15220694)
-<!-- CITATION_END -->
+<br>
+
+<!-- HEADER_END -->
+
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
@@ -31,9 +53,9 @@ Der vorliegende Datansatz enthält umfassende Informationen zu SARS-CoV-2-Infekt
 
 Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.  
  
-Die zugrundeliegenden Daten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html) des RKI.  
-Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [IT 4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/IT4/it4-softwarearchitektur-und-entwicklung-node.html) des RKI.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
+Die zugrundeliegenden Daten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/fg32) des RKI.  
+Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [IT 4 | Softwarearchitektur und -entwicklung](https://www.rki.de/it4) des RKI.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
 
 
 ### Inhalt und Aufbau des Datensatzes
@@ -66,7 +88,7 @@ Für eine genauere Darstellung Berlins, werden die 12 Stadtbezirke als eigene "L
 
 > Aktuell_Deutschland_SARSCoV2_Infektionen.csv  
 
-Zentrales Datum des Datensatzes sind die aktuellen Fallzahlendaten. Diese sind im Hauptverzeichnis unter "Aktuell_Deutschland_SARSCoV2_Infektionen.csv" abrufbar und werden täglich überschrieben. 
+Der Datensatz enthält die aktuellen Fallzahlendaten. Diese sind im Hauptverzeichnis unter "Aktuell_Deutschland_SARSCoV2_Infektionen.csv" abrufbar und werden täglich überschrieben. 
 
 
 #### Merkmale der Fallzahlen Daten
