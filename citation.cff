@@ -9,7 +9,7 @@ abstract: >-
   Todesfällen und Genesungen, differenziert nach Altersgruppen und Geschlecht.
   Diese Daten dienen als Grundlage für epidemiologische Bewertungen und
   gesundheitspolitische Maßnahmen.
-date-released: '2025-11-18'
+date-released: '2025-11-19'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -28,8 +28,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland
 license: CC-BY-4.0
-doi: 10.5281/zenodo.17637127
-version: '2025-11-18T07:03:04+01:00'
+doi: 10.5281/zenodo.17646151
+version: '2025-11-19T07:02:43+01:00'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de
