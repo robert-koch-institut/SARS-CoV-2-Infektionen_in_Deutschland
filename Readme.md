@@ -22,7 +22,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17926480](https://doi.org/10.5281/zenodo.17926480)
+Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17934654](https://doi.org/10.5281/zenodo.17934654)
 
 <br>
 
