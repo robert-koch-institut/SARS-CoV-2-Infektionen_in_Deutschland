@@ -23,10 +23,12 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18346393](https://doi.org/10.5281/zenodo.18346393)
+<!-- CITATION_START: {"citation_style": "apa"} -->  
+Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18490801](https://doi.org/10.5281/zenodo.18490801)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" des Robert Koch-Instituts werden die Daten basierend auf Meldungen zu SARS-CoV-2 Infektionen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Darin enthalten sind Informationen auf Landkreisebene zu bestätigten Infektionen, Todesfällen und Genesungen, differenziert nach Altersgruppen und Geschlecht. Diese Daten dienen als Grundlage für epidemiologische Bewertungen und gesundheitspolitische Maßnahmen.
@@ -78,7 +80,7 @@ Die Fallzahlendaten enthalten als einzige Geoinformation die Landkreis ID. Diese
 Für eine genauere Darstellung Berlins, werden die 12 Stadtbezirke als eigene "Landkreise" aufgegliedert. Hier wird von den Vorgaben des AGS abgewichen. Folgende Zuordnung wird getroffen:  
 
 | IdLandkreis | Bezirk | IdLandkreis | Bezirk |  
-| ----------- | ------ | ----------- | ------ |  
+| :----------- | :------ | :----------- | :------ |  
 |11001 | Berlin Mitte | 11007 | Berlin Tempelhof-Schöneberg |  
 |11002 | Berlin Friedrichshain-Kreuzberg | 11008 | Berlin Neukölln |  
 |11003 | Berlin Pankow | 11009 | Berlin Treptow-Köpenick |  
@@ -132,6 +134,7 @@ Die Ausprägungen des Meldestatus spalten Fallgruppen temporär auf. Die Aufspal
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_SarsCov2_Infektionen", "lang": "de"} -->
 
 Die Datei [Aktuell_Deutschland_SarsCov2_Infektionen.csv](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Aktuell_Deutschland_SarsCov2_Infektionen.json](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_SarsCov2_Infektionen.json) hinterlegt:
+
 > [tableschema_Aktuell_Deutschland_SarsCov2_Infektionen.json](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_SarsCov2_Infektionen.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -213,22 +216,21 @@ Tag TT+4
 >NeuerFall [0], NeuerTodesfall [-9], NeuGenesen [1]  
 
 ----
+
 ##### Hinweis zu Genesenen
 
 Anhand der dem RKI von den Gesundheitsämtern übermittelten Detailinformationen zu einem Erkrankungsfall wird für jeden Fall eine Dauer der Erkrankung geschätzt. Für Fälle, bei denen nur Symptome angegeben sind, die auf einen leichten Erkrankungsverlauf schließen lassen, wird eine Dauer der Erkrankung von 14 Tagen angenommen. Bei hospitalisierten Fällen oder Fällen mit Symptomen, die auf einen schweren Verlauf hindeuten (z. B. Pneumonie) wird eine Dauer der Erkrankung von 28 Tagen angenommen. Ausgehend vom Beginn der Erkrankung, bzw. wenn dieser nicht bekannt ist, vom Meldedatum ergibt sich ein geschätztes Datum der Genesung für jeden Fall. Da im Einzelfall auch deutlich längere Erkrankungsverläufe möglich sind, bzw. die hier genutzten Informationen nicht bei allen Fällen dem RKI übermittelt werden, sind die so berechneten Daten nur grobe Schätzungen für die Anzahl der Genesenen und sollten daher auch nur unter Berücksichtigung dieser Limitationen verwendet werden. 
 
 #### Formatierung der Fallzahlen Daten 
 
-Die Fallzahlen Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO8601 Standard formatiert.
+Die Fallzahlen Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma `,`. Datumsangaben sind im ISO8601 Standard formatiert.
 
 * Zeichensatz: UTF-8  
 * Datumsformat: ISO8601  
-* .csv Trennzeichen: Komma "," 
+* .csv Trennzeichen: Komma `,` 
 
 
 <!-- FOOTER_START: {"lang": "de"} -->
-
-
 
 ### Metadaten  
 
@@ -273,13 +275,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
 
 
- 
+
 ### Lizenz  
 
 Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
