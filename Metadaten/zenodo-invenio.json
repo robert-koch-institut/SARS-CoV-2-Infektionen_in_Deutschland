@@ -1,15 +1,21 @@
 {
   "title": "SARS-CoV-2 Infektionen in Deutschland",
-  "description": "<p>Im Datensatz &quot;SARS-CoV-2 Infektionen in Deutschland&quot; des Robert Koch-Instituts werden die Daten basierend auf Meldungen zu SARS-CoV-2 Infektionen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Darin enthalten sind Informationen auf Landkreisebene zu bestätigten Infektionen, Todesfällen und Genesungen, differenziert nach Altersgruppen und Geschlecht. Diese Daten dienen als Grundlage für epidemiologische Bewertungen und gesundheitspolitische Maßnahmen.</p>\n",
+  "description": "<p>Im Datensatz \"SARS-CoV-2 Infektionen in Deutschland\" des Robert Koch-Instituts werden die Daten basierend auf Meldungen zu SARS-CoV-2 Infektionen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Darin enthalten sind Informationen auf Landkreisebene zu bestätigten Infektionen, Todesfällen und Genesungen, differenziert nach Altersgruppen und Geschlecht. Diese Daten dienen als Grundlage für epidemiologische Bewertungen und gesundheitspolitische Maßnahmen.</p>",
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2026-04-07",
+  "publication_date": "2026-04-08",
   "creators": [
     {
       "person_or_org": {
         "type": "organizational",
-        "name": "Robert Koch-Institut"
+        "name": "Robert Koch-Institut",
+        "identifiers": [
+          {
+            "scheme": "ror",
+            "identifier": "01k5qnb77"
+          }
+        ]
       }
     }
   ],
@@ -104,10 +110,10 @@
     }
   ],
   "publisher": "Zenodo",
-  "version": "2026-04-07",
+  "version": "2026-04-08",
   "dates": [
     {
-      "date": "2026-04-07T07:02:40+02:00",
+      "date": "2026-04-08T07:04:05+02:00",
       "type": {
         "id": "created"
       },
@@ -144,7 +150,7 @@
       "subject": "SARS-CoV-2"
     },
     {
-      "subject": "Infektion"
+      "subject": "Infektionen"
     },
     {
       "subject": "Deutschland"
@@ -166,29 +172,23 @@
     },
     {
       "subject": "RKI"
+    },
+    {
+      "subject": "Gesundheitsberichterstattung"
+    },
+    {
+      "subject": "Epidemiologie"
+    },
+    {
+      "subject": "Public health surveillance"
+    },
+    {
+      "subject": "Epidemiology"
     }
   ],
   "custom_fields": {
     "legacy:communities": [
       "robertkochinstitut"
-    ],
-    "legacy:subjects": [
-      {
-        "term": "Gesundheitsberichterstattung",
-        "identifier": "info:ddc/22/de//614.42"
-      },
-      {
-        "term": "Epidemiologie",
-        "identifier": "info:ddc/22/de//614.4"
-      },
-      {
-        "term": "Public health surveillance",
-        "identifier": "info:ddc/22/eng//614.42"
-      },
-      {
-        "term": "Epidemiology",
-        "identifier": "info:ddc/22/eng//614.4"
-      }
     ]
   }
 }

@@ -20,15 +20,15 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.19447911",
+        "identifier": "10.5281/zenodo.19465162",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
       },
       {
         "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland",
-        "relationType": "A references B",
         "typeGeneral": "Dataset",
+        "relationType": "A references B",
         "scheme": "URL"
       }
     ],
@@ -37,19 +37,24 @@
     },
     "keywords": [
       {
-        "label": "COVID-19"
+        "label": "COVID-19",
+        "code": "http://id.nlm.nih.gov/mesh/D000086382"
       },
       {
-        "label": "SARS-CoV-2"
+        "label": "SARS-CoV-2",
+        "code": "http://id.nlm.nih.gov/mesh/D000086402"
       },
       {
-        "label": "Infektion"
+        "label": "Infektionen",
+        "code": "http://id.nlm.nih.gov/mesh/D007239"
       },
       {
-        "label": "Deutschland"
+        "label": "Deutschland",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
-        "label": "Infections"
+        "label": "Infections",
+        "code": "http://id.nlm.nih.gov/mesh/D007239"
       },
       {
         "label": "Open Data"
@@ -61,26 +66,27 @@
         "label": "SurvNet"
       },
       {
-        "label": "Germany"
+        "label": "Germany",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
         "label": "RKI"
       },
       {
         "label": "Gesundheitsberichterstattung",
-        "code": "info:ddc/22/de//614.42"
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
       },
       {
         "label": "Epidemiologie",
-        "code": "info:ddc/22/de//614.4"
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
       },
       {
         "label": "Public health surveillance",
-        "code": "info:ddc/22/eng//614.42"
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
       },
       {
         "label": "Epidemiology",
-        "code": "info:ddc/22/eng//614.4"
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
       }
     ],
     "languages": [
@@ -96,11 +102,12 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-04-07"
+      "version": "2026-04-08"
     },
     "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland",
     "contributors": [
       {
+        "nameType": "Organisational",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -112,13 +119,13 @@
             ]
           }
         ],
-        "nameType": "Organisational",
         "organisational": {
           "name": "Robert Koch-Institut",
           "type": "Creator/Author"
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -130,7 +137,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Project manager",
           "givenName": "Michaela",
@@ -144,6 +150,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -155,7 +162,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Project manager",
           "givenName": "Linus",
@@ -169,6 +175,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -180,7 +187,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Project manager",
           "givenName": "Hermann",
@@ -194,6 +200,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -205,7 +212,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Data curator",
           "givenName": "Hannes",
