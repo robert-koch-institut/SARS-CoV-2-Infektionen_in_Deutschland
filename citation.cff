@@ -7,7 +7,7 @@ abstract: Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" des Robert Koch-I
   bestätigten Infektionen, Todesfällen und Genesungen, differenziert nach Altersgruppen
   und Geschlecht. Diese Daten dienen als Grundlage für epidemiologische Bewertungen
   und gesundheitspolitische Maßnahmen.
-date-released: '2026-05-12'
+date-released: '2026-05-13'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -26,8 +26,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland
 license: CC-BY-4.0
-doi: 10.5281/zenodo.20131846
-version: '2026-05-12T07:06:29+02:00'
+doi: 10.5281/zenodo.20151212
+version: '2026-05-13T07:06:30+02:00'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de
