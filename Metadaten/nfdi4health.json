@@ -17,7 +17,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.21449206",
+        "identifier": "10.5281/zenodo.21466894",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -99,7 +99,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-07-20"
+      "version": "2026-07-21"
     },
     "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland",
     "contributors": [
