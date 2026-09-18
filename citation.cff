@@ -8,7 +8,7 @@ abstract: >-
   bestätigten Infektionen, Todesfällen und Genesungen, differenziert nach Altersgruppen
   und Geschlecht. Diese Daten dienen als Grundlage für epidemiologische Bewertungen
   und gesundheitspolitische Maßnahmen.
-date-released: '2026-09-17'
+date-released: '2026-09-18'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -27,8 +27,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland
 license: CC-BY-4.0
-doi: 10.5281/zenodo.22805346
-version: '2026-09-17'
+doi: 10.5281/zenodo.22823565
+version: '2026-09-18'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de
